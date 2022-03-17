@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #FFBF00;
-  /*background: linear-gradient(180deg, rgba(138,202,253,1) 0%, rgba(255,191,0,1) 100%);*/
+  /*background: linear-gradient(180deg, rgba(138,202,253,1) 0%, rgba(255,191,0,1) 100%);*/  
   min-height: 50vh;
   display: flex;
   flex-direction: column;
@@ -31,6 +31,7 @@
   border: 1px solid #8ACAFD;
   margin: 5px;
   text-decoration: none;
+  display: inline-block;
 }
 .App-link:hover {
   background-color: #8ACAFD;
