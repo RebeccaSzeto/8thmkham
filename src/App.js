@@ -5,19 +5,45 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+        <img src={logo} alt="logo" />  
+      </header>
+      <main>      
+      <p>
+          Welcome to 8th Markham Scouts Group of Scouts Canada!
         </p>
-        <a
+      <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://scoutstracker.ca/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Scouts Tracker
         </a>
-      </header>
+        <a
+          className="App-link"
+          href="https://www.myscouts.ca/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Thank a Scouter
+        </a>
+        <a
+          className="App-link"
+          href="https://www.facebook.com/groups/2044651302322203/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Facebook group
+        </a>
+      <a
+          className="App-link"
+          href="https://www.scouts.ca/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Scouts Canada
+        </a>
+      </main>
     </div>
   );
 }
